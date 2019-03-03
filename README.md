@@ -20,4 +20,3 @@ Run server on localhost:8000
 
 
 based on https://github.com/nawb/chat-rnn-tensorflow
-# HackTech2019-RNN
