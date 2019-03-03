@@ -9,11 +9,10 @@ Download data at https://webhose.io/free-datasets/popular-blog-posts/
 
 Preprocess Data
 `cd data`
-`python parse.py`
+`python parse.py path_to_data`
 
 Train it
 `python train.py -rnn_size 512 --data data --seq_length 512`
-
 I don't know how the best parameters, but these worked decently well
 
 Run server on localhost:8000
